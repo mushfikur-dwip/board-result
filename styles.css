@@ -1,0 +1,205 @@
+@font-face {
+  font-family: Verdana;
+  src: url(/assets/fonts/verdana-bold.ttf);
+}
+@font-face {
+  font-family: "helvetica";
+  src: url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf")
+      format("woff"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf")
+      format("opentype"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf")
+      format("truetype");
+}
+
+body {
+  font-family: Verdana, Arial, helvetica, sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #eeee;
+}
+
+.app {
+  width: 640px;
+  height: 540px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  display: flex;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  background: #eee;
+  padding: 20px;
+}
+
+.logo {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.header .title {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  background: #007814;
+}
+
+hr.solid {
+  border-top: 1px solid #95e17d;
+  margin: -1px 0 10px -10px;
+  width: 100px;
+  background-color: #95e17d;
+}
+
+.title-min {
+  margin: 0 0 10px -10px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #95e17d;
+}
+
+.title-min img {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.title h1 {
+  font-size: 17px;
+  margin: 15px 0px 0 10px;
+  color: #95e17d;
+}
+
+.title .isebb {
+  font-family: Verdana;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffee;
+  letter-spacing: 1px;
+  height: 55px;
+}
+.title .link {
+  background-image: url(/assets/imgs/bgimg.jpg);
+  background-repeat: repeat-x;
+  /* background: #86c775; */
+  text-align: -webkit-right;
+  padding: 5px;
+  color: #ffff;
+  margin-left: -10px;
+  margin-top: 3px;
+  font-size: 11px;
+  border-top: solid 1px #ffffff;
+}
+
+/* Reseult Design  */
+
+.result {
+  border-width: 2px;
+  border-style: groove;
+  border-color: rgb(192, 192, 192);
+  padding: 30px 40px;
+  margin-top: 20px;
+  width: 400px;
+}
+/* 
+.result form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+} */
+
+.result_title{
+  display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 12px;
+    align-items: center;
+}
+
+/* label{
+  text-align: left;
+} */
+.result_data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+}
+#exam-name, #board-name, #year, #roll{
+  width: 205px;
+  color: black;
+  font-size: 12px;
+  border: 1px solid #9999;
+  background-color: #F4F0F2;
+  padding: 4px;
+  border-radius: 4px;
+}
+#roll, #reg, #captcha{
+  width: 195px;
+  color: black;
+  font-size: 12px;
+  border: 1px solid #9999;
+  background-color: #F4F0F2;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.result-lables{
+  text-align: left;
+}
+
+.btn{
+  padding-left: 35px !important;
+}
+
+/* Footer Design Started */
+.footer{
+  margin-top: 40px;
+  height: 80px;
+  background: #efefef;
+  width: 640px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 7px solid #86C775;
+}
+
+.copyright{
+  font-size: 10px;
+  color: #666666;
+  margin: 0;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+.poweredby{
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: #666666;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+ }
+ .poweredby img{
+   width: 83px;
+   height: 40px;
+   margin-left: 10px;
+ }
